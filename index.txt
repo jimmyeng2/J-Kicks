@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J'Kicks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header>
+        <nav>
+            <div class="logo">J'Kicks</div>
+            <ul class="nav-links">
+                <li><a href="#home">Homepage</a></li>
+                <li><a href="#products">Kicks</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 首页横幅 -->
+    <section id="home" class="banner" style="background: linear-gradient(to right, #ff7e5f, #feb47b);">
+    <h1>Welcome to J'Kicks</h1>
+    <p>Have a look and find your sneaker</p>
+</section>
+
+
+    <!-- 产品展示 -->
+    <section id="products" class="product-section">
+        <h2>In-stock Kicks</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="images/yellow.jpg" alt="鞋子1">
+                <h3>AJ 1 Low X Travis Scott Canary Yellow</h3>
+                <p>PRICE：RM2000++</p>
+		<p>Size：UK10.5</p>
+            </div>
+            <div class="product-item">
+                <img src="futura.jpg" alt="鞋子2">
+                <h3>Nike SB Dunk Low x Futura Laboratories</h3>
+                <p>PRICE：RM2000++</p>
+		<p>Size：UK10</p>
+            </div>
+            <div class="product-item">
+                <img src="rio.jpg" alt="鞋子3">
+                <h3>Air Jordan 3 x J Balvin 'Rio'</h3>
+                <p>PRICE：RM2000++</p>
+		<p>Size：UK10</p>
+            </div>
+            <div class="product-item">
+                <img src="aj4.jpg" alt="鞋子4">
+                <h3>Jordan 4 Retro Military Blues</h3>
+                <p>PRICE：RM1100++</p>
+		<p>Size：UK10.5</p>
+            </div>
+            <div class="product-item">
+                <img src="there.jpg" alt="鞋子5">
+		<h3>Nike SB Dunk Low X There Skateboards</h3>
+                <p>PRICE：RM800++</p>
+		<p>Size：UK10</p>
+            </div>
+            <div class="product-item">
+                <img src="leal.jpg" alt="鞋子6">
+		<h3>Nike SB Dunk Low X Rayssa Leal</h3>
+                <p>PRICE：RM800++</p>
+		<p>Size：UK10.5</p>
+            </div>
+     	    <div class="product-item">
+                <img src="money.jpg" alt="鞋子7">
+		<h3>Nike SB Dunk Low Big money saving</h3>
+                <p>PRICE：RM800++</p>
+		<p>Size：UK10.5</p>
+            </div>
+	    <div class="product-item">
+                <img src="city.jpg" alt="鞋子8">
+		<h3>Nike SB Dunk Low City of Style</h3>
+                <p>PRICE：RM800++</p>
+		<p>Size：UK10.5</p>
+            </div>
+	    <div class="product-item">
+                <img src="beach.jpg" alt="鞋子9">
+		<h3>Nike Kobe 8 Protro Venice Beach</h3>
+                <p>PRICE：RM1100++</p>
+		<p>Size：UK10.5</p>
+            </div>
+	    <div class="product-item">
+                <img src="girl.jpg" alt="鞋子10">
+		<h3>NIKE KOBE 4 PROTRO “GIRL DAD”</h3>
+                <p>PRICE：RM1100++</p>
+		<p>Size：UK10.5</p>
+            </div>
+            <!-- 添加更多产品 -->
+        </div>
+    </section>
+
+    <!-- About J'kicks -->
+    <section id="about" class="about-section">
+        <h2>About J'kicks</h2>
+        <p>Simple sneakerheard who collect latest hot sneaker and selling in size UK10 and UK10.5 only</p>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="contact-section">
+        <h2>联系我们</h2>
+        <p>Anything just contact me through IG and whatsapp</p>
+        <ul>
+            <li>Instagram  ：contact@shoecompany.com</li>
+            <li>Whatsapp  ： 123-456-7890</li>
+        </ul>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>&copy; J'kicks. All rights reserved.</p>
+    </footer>
+</body>
+</html>
