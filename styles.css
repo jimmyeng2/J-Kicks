@@ -38,6 +38,24 @@ nav {
     margin-left: 20px;
 }
 
+/* 移动设备优化 */
+@media (max-width: 600px) {  /* 当屏幕宽度小于600px时 */
+    .nav-links {
+        flex-direction: column; /* 垂直排列导航链接 */
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin-left: 0; /* 移除水平间距 */
+        margin-bottom: 10px; /* 增加垂直间距 */
+    }
+
+    nav {
+        flex-direction: column; /* 导航栏垂直排列 */
+        align-items: center; /* 居中对齐 */
+    }
+}
+
 .nav-links a {
     color: #fff;
     text-decoration: none;
