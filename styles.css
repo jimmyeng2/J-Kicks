@@ -39,7 +39,7 @@ nav {
 }
 
 /* 移动设备优化 */
-@media (max-width: 600px) {  /* 当屏幕宽度小于600px时 */
+@media (max-width: 600px) {  /* 当屏幕宽度小于1000px时 */
     .nav-links {
         flex-direction: column; /* 垂直排列导航链接 */
         align-items: center;
